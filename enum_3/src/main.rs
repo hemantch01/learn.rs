@@ -24,6 +24,7 @@ impl Ipaddress{
 
 #[derive(Debug)]
 struct Ipv4(u8,u8,u8,u8);
+#[derive(Debug)]
 struct Ipv6(String);
 
 #[derive(Debug)]
